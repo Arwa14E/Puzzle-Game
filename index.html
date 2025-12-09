@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Puzzle Game</h1>
+        <p>لعبة ألغاز تفاعلية ومتحدية تعمل مباشرة في المتصفح</p>
+    </header>
+
+    <section class="features">
+        <h2>مميزات اللعبة</h2>
+        <ul>
+            <li>واجهة مستخدم جذابة ومتجاوبة لجميع الأجهزة</li>
+            <li>شبكة ألغاز 4x4 أكثر تحدياً</li>
+            <li>عداد الوقت وعدد الحركات لتحدي نفسك</li>
+            <li>تأثيرات حركة سلسة عند تحريك القطع</li>
+            <li>رسالة فوز متحركة عند إكمال اللغز</li>
+            <li>خفيفة وسريعة التحميل بدون مكتبات خارجية</li>
+        </ul>
+    </section>
+
+    <section class="game">
+        <h2>جرب اللعبة الآن</h2>
+        <div class="stats">
+            <span>الوقت: <span id="time">0</span> ثانية</span>
+            <span>الحركات: <span id="moves">0</span></span>
+        </div>
+        <div id="game-board"></div>
+        <div class="buttons">
+            <button id="start-btn">ابدأ اللعبة</button>
+            <a href="#" target="_blank" class="code-btn">عرض الكود</a>
+        </div>
+        <div id="win-message" class="hidden">🎉 تهانينا! لقد أكملت اللغز!</div>
+    </section>
+
+    <footer>
+        <p>© 2025 Puzzle Game. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>
